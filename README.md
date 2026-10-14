@@ -1,5 +1,5 @@
 # Apple Snake!
-Find a apple, with your snake -|-
+Find a apple, with your snake --------o
 
 ## How it Works
 The game is coded in  ```python``` and uses the ```pygame``` library! You can look at the ```main.py``` document to understand the code, although it is very simple!
