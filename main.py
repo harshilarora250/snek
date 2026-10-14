@@ -48,9 +48,9 @@ while True:
             if event.key == pygame.K_RIGHT:
                 player_vel_x = 0.2
             if event.key == pygame.K_UP:
-                player_vel_y = -0.2
+                player_y += -5
             if event.key == pygame.K_DOWN:
-                player_vel_y = 0.2
+                player_y += 5
                 
 
     # Update positions
