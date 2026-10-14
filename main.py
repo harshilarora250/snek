@@ -10,8 +10,8 @@ window = pygame.display.set_mode((800, 600))
 window.fill((0, 0, 0))
 pygame.display.set_caption("Snake! Eat em' apples")
 
-player = pygame.Surface((100, 100))
-player.fill((255, 255, 255))
+player = pygame.Surface((50, 50))
+player.fill((0, 0, 255))
 
 player_x = 0
 player_y = 0
@@ -47,6 +47,11 @@ while True:
                 player_vel_x = -0.2
             if event.key == pygame.K_RIGHT:
                 player_vel_x = 0.2
+            if event.key == pygame.K_UP:
+                player_vel_y = -0.2
+            if event.key == pygame.K_DOWN:
+                player_vel_y = 0.2
+                
 
     # Update positions
     player_x += player_vel_x
