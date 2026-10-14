@@ -1,4 +1,6 @@
+# Import any libraries that I may need
 import pygame
+import random
 
 print("Hello World! From the developers of Snake!")
 
@@ -22,6 +24,9 @@ falling_object_x = 0
 falling_object_y = O
 falling_object_vel_x = O
 falling_object_vel_y = 0.3
+player_x += player_vel_x
+player_y += player_vel_y
+window.bilt(player, dest: (player_x, player_y))
 
 while True:
     # take input
@@ -42,3 +47,9 @@ while True:
     window.fill((255,255,255))
     window.blit(player, dist:(player_x, player_y))
     pygame.display.flip()
+
+def collision detection): 1usage new*
+return (player_x <= (falling_object_x + int(falling_object.width)) and
+(player_x + player.width) >= falling_object_x and
+player_y <= (falling_object_y + falling_object.height + 5) and
+(player_y + player.height) >= falling_object_y)
