@@ -16,7 +16,7 @@ nano main.py
 ```
 
 ## AI Usage
-This project used minimal AI. Key usages includes: bug fixing, and understanding new features to the ```pygame``` library. You can find out more usage information, and time taken to built this project on the public HackClub [Hackatime](https://hackatime.hackclub.com/) page! Please directly DM the contributor on the HackClub Slack.
+This project used minimal AI. Key usages includes: bug fixing, and understanding new features to the ```pygame``` library. You can find out more usage information, and time taken to built this project on the public HackClub [Hackatime](https://hackatime.hackclub.com/@elipseday/project/snek) page! Please directly DM the contributor on the HackClub Slack.
 
 ## Contribution
 This project was developed by Harshil Arora! If a recent update has not been made, it is not being updated, you can create an issue in Github if you find a bug. To directly contact me, dm me on [HackClub Slack]!
